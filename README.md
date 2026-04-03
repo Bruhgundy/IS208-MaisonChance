@@ -1,24 +1,20 @@
-# Boilerplate — Initial Project Scaffold
-**Date:** 03/04/2026 (before Sprint 1)
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Project foundation with everything needed to build and run:
+# Run and deploy your AI Studio app
 
-**Config & Infrastructure:**
-- Vite + React + TypeScript + Tailwind setup
-- Dockerfile & run.bat
-- package.json with all dependencies
+This contains everything you need to run your app locally.
 
-**Server API Routes (Express):**
-- `server/routes/auth.ts` — Xác thực
-- `server/routes/beneficiaries.ts` — Hồ sơ thụ hưởng
-- `server/routes/donations.ts` — Quyên góp
-- `server/routes/inventory.ts` — Kho vật tư
-- `server/routes/programs.ts` — Chương trình
-- `server/db.ts`, `server/types.ts`, `server/middleware/auth.ts`
+View your app in AI Studio: https://ai.studio/apps/9b6732f8-c4f6-4d32-b135-cea9f63237c1
 
-**Public Landing Page Components:**
-- Hero, ImpactStats, CorePrograms, FeaturedSections, BlogAndContact, Footer
-- Public Navbar
+## Run Locally
 
-**Entry Points:**
-- `src/main.tsx`, `src/index.css`
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
